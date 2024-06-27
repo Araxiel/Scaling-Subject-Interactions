@@ -1,0 +1,4 @@
+﻿l_english: 
+
+  LIBERTY_DESIRE_WEEKLY_CHANGE_OWES_OBLIGATION: "Owes Obligation to Overlord"
+  ADD_LIBERTY_DESIRE_TO_ALL_SUBJECTS_SSI: "Adds #variable [SCOPE.ScriptValue('ssi_reduce_libdes_in_others_from_autonomy_reduction')]#! [concept_liberty_desire] to each other direct [concept_subject]"

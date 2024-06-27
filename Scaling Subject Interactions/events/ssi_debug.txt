@@ -1,0 +1,15 @@
+﻿namespace = ssi_debug
+
+ssi_debug.1 = {
+	type = country_event
+	hidden = yes
+	orphan = yes
+	immediate = {
+		every_subject_or_below = {
+			limit = {
+				is_direct_subject_of = root
+			}
+			add_liberty_desire = -10
+		}
+	}
+}
