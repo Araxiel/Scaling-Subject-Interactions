@@ -30,21 +30,3 @@ ssi_reduce_libdes_in_others_from_autonomy_reduction = {
 	max = 10
 	## Based on: desc = "LIBERTY_DESIRE_WEEKLY_CHANGE_PRESTIGE_DIFFERENCE_2_0_NEGATIVE"
 }
-
-ssi_reduce_libdes_in_others_from_autonomy_reduction_loc = {
-	value = 20
-	
-	##base/(lord/subject)/2
-	divide = {
-		value = root.prestige
-		divide = {
-			value = GetSecondCountry.prestige
-			multiply = 1.5
-		}
-	}
-	multiply = 4
-	round = yes
-	min = 2
-	max = 10
-	## Based on: desc = "LIBERTY_DESIRE_WEEKLY_CHANGE_PRESTIGE_DIFFERENCE_2_0_NEGATIVE"
-}

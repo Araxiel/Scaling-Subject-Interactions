@@ -1,4 +1,4 @@
-grant_state = {
+﻿grant_state = {
 	groups= {
 		overlord
 	}
